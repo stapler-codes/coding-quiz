@@ -1,0 +1,46 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-desktop.png);
+}   
+.question {
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    position: relative;
+    left: 33vw;
+    top: 8vh;
+    border-radius: 0.5rem;
+}
+#question1_question {
+    font-size: 1.7rem;
+    width: 30ch;
+    position: relative;
+    left: 3vw;
+    top: 5vh;
+}
+.option {
+    width: 25rem;
+    height: 4rem;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 0.2rem;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    left: 3vw;
+}
+#question1_option1 {
+    position: relative;
+    top: 10vh;
+}
+#question1_option2 {
+    position: relative;
+    top: 23vh;
+}   
+#question2 {
+    visibility: hidden;
+    position: relative;
+    top: -65.6vh;
+    left: 33vw;
+}
