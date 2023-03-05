@@ -2,6 +2,7 @@
 body {
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-desktop.png);
+    overflow: hidden;
 }   
 .question {
     width: 30rem;
@@ -12,7 +13,7 @@ body {
     top: 8vh;
     border-radius: 0.5rem;
 }
-#question1_question {
+.question_text {
     font-size: 1.7rem;
     width: 30ch;
     position: relative;
